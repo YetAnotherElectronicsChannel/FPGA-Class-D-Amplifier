@@ -33,4 +33,5 @@ Gain = "11" -> Gain = +9 dB
 PIN 14 = "1" -> Noise-Shaper is active  
 PIN 14 = "0" -> Noise-Shaper is bypassed
 
+![System](blockdiagram.png)
 
