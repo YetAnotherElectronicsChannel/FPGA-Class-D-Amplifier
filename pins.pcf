@@ -25,14 +25,14 @@ set_io i2s_din B7
 
 
 
-#pin14
+#pin18
 set_io pwm_n_l A9
-#pin13
+#pin17
 set_io pwm_p_l C9
 
-#pin1
+#pin16
 set_io  gain[0] D8
-#pin12
+#pin15
 set_io  gain[1] D9
 
 #LED
