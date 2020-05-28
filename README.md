@@ -2,6 +2,7 @@
 
 I realized a high-res audio PWM modulator on a FPGA with I2S audio input and 384 kHz output PWM signal capable of driving a Mosfet power-stage to build up a Class-D amplifier or an audio-DAC (with RC filter behind the digital pins).  
 The whole system runs on a 25 MHz system-clock, the audio-input stream is 96 kHz and the signal is internally upsampled to 384 kHz with an upsampler.  
+
 The signal bit-width is reduced to only 5 bits by a multibit sigma-delta (noiseshaper) structure to feed the 5 Bit / 384 kHz audio signal into a PWM generator.  
 
 The idea behind the project was to explain how fully digital I2S Class-D amps like TI TAS5701 are working internally (by modulating the PWM signal fully digital directly from the incoming data stream - without any additional analog modulators)  
