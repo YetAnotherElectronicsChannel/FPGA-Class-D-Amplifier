@@ -109,6 +109,7 @@ if (rising_edge(clk)) then
 		else   
 			FirTemp <= FirTemp + mul_result;
 			if (FIRIsNull = '0') then
+			--multiply by 4 (shift 2 left)
 				FirData(FIR_W_Ptr) <= shift_left(DataToFIR,2);
 				FirPTRs(FIR_W_Ptr) <= 0;
 				if (FIR_W_Ptr < 31) then
