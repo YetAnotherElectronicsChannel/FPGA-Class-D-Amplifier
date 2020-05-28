@@ -21,7 +21,7 @@ PIN23 - ADC-BCLK
 PIN22 - ADC-LR  
 PIN21 - ADC-DATA  
 PIN18 - PWM out inverted (PWM_n)  
-PIN17 - PWM out normal phase (PWM_P)
+PIN17 - PWM out normal phase (PWM_P)  
 PIN16 - gain[0]  
 PIN15 - gain[1]  
 PIN14 - NoiseShaper Bypass-Control  
