@@ -1,0 +1,44 @@
+# ##############################################################################
+
+# iCEcube PCF
+
+# Version:            2017.01.27914
+
+# File Generated:     Jun 24 2017 13:04:57
+
+# Family & Device:    iCE40LP8K
+
+# Package:            CM81
+
+# ##############################################################################
+
+###IOSet List 24
+
+#pin24
+set_io i2s_mclk_adc A6
+#pin23
+set_io i2s_bclk_adc B6
+#pin22
+set_io i2s_lr_adc A7
+#pin21
+set_io i2s_din B7
+
+
+
+#pin14
+set_io pwm_n_l A9
+#pin13
+set_io pwm_p_l C9
+
+#pin1
+set_io  gain[0] D8
+#pin12
+set_io  gain[1] D9
+
+#LED
+set_io limit B3
+
+#pin14
+set_io ns_mux H9
+
+set_io clk_16mhz B2
