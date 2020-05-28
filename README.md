@@ -9,7 +9,7 @@ The idea behind the project was to explain how fully digital I2S Class-D amps li
 
 The project is based on a TinyFPGA-BX board (iCE40LP8K from Lattice), a Digilent PMOD I2S2 audio adc/dac board (only ADC used), and a board with two MPS MP8040 power half-bridge drivers to drive the loudspeaker.
 
-Before you start - please read the ([documentation](Documentation.pdf)) carefully to understand how the whole system is working.
+Before you start - please read the [documentation](Documentation.pdf) carefully to understand how the whole system is working.
 
 
 
