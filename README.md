@@ -5,7 +5,8 @@ The whole system runs on a 25 MHz system-clock, the audio-input stream is 96 kHz
 
 The signal bit-width is reduced to only 5 bits by a multibit sigma-delta (noiseshaper) structure to feed the 5 Bit / 384 kHz audio signal into a PWM generator.  
 
-The idea behind the project was to explain how fully digital I2S Class-D amps like TI TAS5701 are working internally (by modulating the PWM signal fully digital directly from the incoming data stream - without any additional analog modulators)  
+The idea behind the project was to explain how fully digital I2S Class-D amps are working internally (by modulating the PWM signal fully digital directly from the incoming data stream - without any additional analog modulators).
+This concept is used by many silicon vendors in especially low-power Class-D amplifiers.
 
 The project is based on a TinyFPGA-BX board (iCE40LP8K from Lattice), a Digilent PMOD I2S2 audio adc/dac board (only ADC used), and a board with two MPS MP8040 power half-bridge drivers to drive the loudspeaker.
 
