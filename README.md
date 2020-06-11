@@ -10,7 +10,7 @@ This concept is used by many silicon vendors in especially low-power Class-D amp
 
 The project is based on a TinyFPGA-BX board (iCE40LP8K from Lattice), a Digilent PMOD I2S2 audio adc/dac board (only ADC used), and a board with two MPS MP8040 power half-bridge drivers to drive the loudspeaker.
 
-Before you start - please read the [documentation](Documentation.pdf) carefully to understand how the whole system is working or just watch my YouTube video where I explained everything in detail with some real audio-tests https://youtu.be/3Jd_ZyCZeGk
+Before you start - please read the [documentation](Documentation_FPGA_ClassD.pdf) carefully to understand how the whole system is working or just watch my YouTube video where I explained everything in detail with some real audio-tests https://youtu.be/3Jd_ZyCZeGk
 
 
 
